@@ -1,0 +1,44 @@
+<MsiWrapper>
+  <Installer>
+    <IconFile Detect="" Value="D:\Pictures\Ico\GSecurity.ico" />
+    <Output FileName="D:\Work\Msi\GSecurity.msi" />
+    <InstallPrivileges Value="Limited" />
+    <PerUser Value="auto" />
+    <ElevateExecutable Value="never" />
+    <UpgradeCode Value="{A20F649B-1562-432D-AFAE-3EEC94C5046D}" />
+    <ProductId Value="" />
+    <Platform Value="x86" />
+    <Registration Value="Visible" />
+    <RegistrationWrapped Value="Hidden" />
+    <Manufacturer Detect="" Value="Gorštak" />
+    <ProductVersion Detect="" Value="16.3.0.0" />
+    <ProductName Detect="" Value="GSecurity" />
+    <Comments Detect="" Value="none" />
+    <Contact Detect="" Value="goran.stambuk@net.hr" />
+    <HelpLink Detect="" Value="" />
+    <UpdateLink Detect="" Value="" />
+    <AboutLink Detect="" Value="" />
+  </Installer>
+  <WrappedInstaller>
+    <Executable FileName="D:\Work\GSecurity\GSecurity.cmd" SuccessCodes="" Impersonate="no" IncludeFiles="yes" CompressionLevel="Max" />
+    <ApplicationId Value="" />
+    <Install>
+      <Arguments Value="">
+        <UILevelNone Value="" />
+        <UILevelBasic Value="" />
+        <UILevelReduced Value="" />
+        <UILevelFull Value="" />
+      </Arguments>
+      <RunBeforeInstall Value="" />
+      <RunAfterInstall Value="" />
+    </Install>
+    <Uninstall>
+      <Arguments Value="">
+        <UILevelNone Value="" />
+        <UILevelBasic Value="" />
+        <UILevelReduced Value="" />
+        <UILevelFull Value="" />
+      </Arguments>
+    </Uninstall>
+  </WrappedInstaller>
+</MsiWrapper>
