@@ -1,4 +1,18 @@
-﻿        <c>accessibility 'Alati pristupačnosti'</c>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>03/29/2022 12:06</Date>
+	<AppInfo>
+		<Version>1.5.0.5855</Version>
+		<Licensed>Yes</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 10 Pro 64-bit - Client 10.0.22000.1 (en-US) - en-US</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 10 Enterprise 64-bit - Client 10.0.22000.318 (en-US)</Version>
+		<GUID>{5CBA1196-4F5A-4F52-A384-C80FFFD6E0AD}</GUID>
+	</ImageInfo>
+	<RemoveComponents>
+		<c>accessibility 'Alati pristupačnosti'</c>
 		<c>alljoyn 'AllJoyn Router Service'</c>
 		<c>appv 'Application Virtualization (App-V)'</c>
 		<c>assembly.net 'NET sklop predmemorije'</c>
@@ -8,6 +22,25 @@
 		<c>backup 'Windows sigurnosna kopija'</c>
 		<c>branchcacheclient 'BranchCache Client'</c>
 		<c>charmap 'Character Map'</c>
+		<c>containers</c>
+		<c>driver_c_volsnap.inf</c>
+		<c>driver_rdpbus.inf</c>
+		<c>driver_spaceport.inf</c>
+		<c>driver_volsnap.inf</c>
+		<c>driver_wdmvsc.inf</c>
+		<c>driver_wfcvsc.inf</c>
+		<c>driver_wgencounter.inf</c>
+		<c>driver_whyperkbd.inf</c>
+		<c>driver_wnetvsc.inf</c>
+		<c>driver_ws3cap.inf</c>
+		<c>driver_wstorflt.inf</c>
+		<c>driver_wstorvsc.inf</c>
+		<c>driver_wvmbus.inf</c>
+		<c>driver_wvmbushid.inf</c>
+		<c>driver_wvmbusvideo.inf</c>
+		<c>driver_wvmic.inf</c>
+		<c>driver_wvmic_ext.inf</c>
+		<c>driver_wvpci.inf</c>
 		<c>driver_xinputhid.inf</c>
 		<c>dvdplay 'DVD Play'</c>
 		<c>enterpriseclientsync 'Work Folders Client'</c>
@@ -27,24 +60,18 @@
 		<c>font_fixed 'Fixed'</c>
 		<c>font_franklingothic 'FranklinGothic'</c>
 		<c>font_gabriola 'Gabriola'</c>
-		<c>font_gadugi 'Gadugi'</c>
-		<c>font_gadugibold 'Gadugi Bold'</c>
 		<c>font_georgia 'Georgia'</c>
 		<c>font_holomd2 'Holo MDL2 Assets'</c>
 		<c>font_impact 'Impact'</c>
 		<c>font_inkfree 'Ink Free'</c>
 		<c>font_javanesetext 'Javanese Text'</c>
-		<c>font_leelawadeeui 'LeelawadeeUI'</c>
-		<c>font_leelawadeeui_regular 'Leelawadee UI'</c>
 		<c>font_lucidasans 'Lucida Sans Unicode'</c>
 		<c>font_malgungothic 'Malgun Gothic'</c>
 		<c>font_malgungothicbold 'Malgun Gothic Bold'</c>
 		<c>font_malgungothicsemilight 'Malgun Gothic SemiLight'</c>
 		<c>font_microsofthimalaya 'Microsoft Himalaya'</c>
-		<c>font_microsoftjhenghei 'Microsoft JhengHei &amp; Microsoft JhengHei UI'</c>
 		<c>font_microsoftjhengheibold 'Microsoft JhengHei Bold &amp; Microsoft JhengHei UI Bold'</c>
 		<c>font_microsoftjhengheilight 'Microsoft JhengHei Light &amp; Microsoft JhengHei UI Light'</c>
-		<c>font_microsoftyahei 'Microsoft YaHei &amp; Microsoft YaHei UI'</c>
 		<c>font_microsoftyaheibold 'Microsoft YaHei Bold &amp; Microsoft YaHei UI Bold'</c>
 		<c>font_microsoftyaheilight 'Microsoft YaHei Light &amp; Microsoft YaHei UI Light'</c>
 		<c>font_mingliub 'MingLiU-ExtB &amp; PMingLiU-ExtB &amp; MingLiU_HKSCS-ExtB'</c>
@@ -55,8 +82,6 @@
 		<c>font_myanmartextbold 'Myanmar Text Bold'</c>
 		<c>font_newtailue 'Microsoft New Tai Lue'</c>
 		<c>font_newtailuebold 'Microsoft New Tai Lue Bold'</c>
-		<c>font_nirmalaui 'NirmalaUI'</c>
-		<c>font_nirmalaui_regular 'Nirmala UI'</c>
 		<c>font_oem 'OEM'</c>
 		<c>font_palatinolinotype 'PalatinoLinotype'</c>
 		<c>font_phagspa 'Microsoft PhagsPa'</c>
@@ -72,7 +97,6 @@
 		<c>font_sitka 'Sitka'</c>
 		<c>font_small 'Small'</c>
 		<c>font_sylfaen 'Sylfaen'</c>
-		<c>font_symbol 'Symbol'</c>
 		<c>font_system 'System'</c>
 		<c>font_taile 'Microsoft Tai Le'</c>
 		<c>font_tailebold 'Microsoft Tai Le Bold'</c>
@@ -80,19 +104,20 @@
 		<c>font_vector 'Vector'</c>
 		<c>font_verdana 'Verdana'</c>
 		<c>font_webdings 'Webdings'</c>
-		<c>font_wingdings 'Wingdings'</c>
 		<c>font_yibaiti 'Microsoft Yi Baiti'</c>
 		<c>font_yugothic 'Yu Gothic Regular &amp; Yu Gothic UI Semilight'</c>
 		<c>font_yugothicbold 'Yu Gothic Bold &amp; Yu Gothic UI Semibold &amp; Yu Gothic UI Bold'</c>
 		<c>font_yugothiclight 'Yu Gothic Light &amp; Yu Gothic UI Light'</c>
 		<c>font_yugothicmedium 'Yu Gothic Medium &amp; Yu Gothic UI Regular'</c>
 		<c>gameexplorer 'Game Explorer'</c>
+		<c>guardedhost 'Guarded Host'</c>
 		<c>help 'Čarobnjak pomoći Windowsa'</c>
 		<c>helpsupport 'Help file support (CHM)'</c>
 		<c>hyperv 'Hiper-V'</c>
 		<c>hypervguest 'Hyper-V gost'</c>
 		<c>indeo 'Intel Indeo Codeci'</c>
 		<c>iscsi 'iSCSI Initiator'</c>
+		<c>isolatedusermode 'Isolated user mode (IUM)'</c>
 		<c>langarabic 'Arabic'</c>
 		<c>langbulgarian 'Bulgarian'</c>
 		<c>langchineses 'Chinese Simplified'</c>
@@ -135,7 +160,7 @@
 		<c>langturkish 'Turkish'</c>
 		<c>langukrainian 'Ukrainian'</c>
 		<c>manifestbackup 'Manifest Backup (WinSxS$#92;Backup)'</c>
-		<c>manualsetup 'Ručni Setup'</c>
+		<c>manifests 'Windows Component Database'</c>
 		<c>mediaplayer 'Windows Media Player'</c>
 		<c>mediaplayernetworksharing 'WMP Network Sharing Service'</c>
 		<c>messagingsvc 'Messaging Service'</c>
@@ -209,8 +234,10 @@
 		<c>remoteportredirector 'Remote Desktop Services Port Redirector'</c>
 		<c>remoteregistry 'Remote Registry'</c>
 		<c>retaildemo 'Retail Demo Content'</c>
+		<c>rotationmanager 'Auto-Rotation Manager'</c>
 		<c>rpclocator 'Remote Procedure Call (RPC) Locator'</c>
 		<c>securitycenter 'Sigurnosni centar'</c>
+		<c>sfc 'System File Check (SFC)'</c>
 		<c>sharedpc 'Shared PC mode'</c>
 		<c>soundsdefault 'Zvukovi (zadano)'</c>
 		<c>sourcessxsdir 'Manual feature repository'</c>
@@ -219,20 +246,158 @@
 		<c>spellchecking 'Spell Checking'</c>
 		<c>staticfontcache 'Static Font Cache'</c>
 		<c>stepsrecorder 'Steps Recorder'</c>
+		<c>storageqos 'Storage Quality of Service (Storage QoS)'</c>
 		<c>storagespaces 'Storage Spaces'</c>
 		<c>supportdir 'Support directory'</c>
 		<c>synccenter 'Sync Centar'</c>
+		<c>systemrestore 'Vraćanje sustava'</c>
 		<c>tabletextservice 'Table Text Servis'</c>
 		<c>tabletpc 'Tablet PC'</c>
 		<c>textprediction 'Predviđanje teksta'</c>
+		<c>tieringengine 'Storage Tiers Management'</c>
 		<c>uev 'User Experience Virtualization (UE-V)'</c>
 		<c>vcmcodecs 'Video Compression Manager (VCM) codecs'</c>
 		<c>vhd 'Potpora Virtualnog diska'</c>
 		<c>vss 'Volume Shadow Copy'</c>
 		<c>Windows.PrintDialog 'PrintDialog'</c>
 		<c>winocr 'Windows TIFF IFilter(OCR)'</c>
-		<c>winre 'Windows oporavak'</c>
 		<c>winrm 'Windows Remote Management (WS-Management)'</c>
 		<c>winsat 'Windows System Assessment Tool (WinSAT)'</c>
 		<c>winsxs 'Windows Component Store (WinSxS)'</c>
 		<c>wordpad</c>
+	</RemoveComponents>
+	<Compatibility protectHidden="false">
+		<ComponentFeatures>
+			<Feature enabled="no">DefaultFonts</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="no">Recommended-All</Feature>
+			<Feature enabled="no">Printing</Feature>
+			<Feature enabled="yes">ManualSetup</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">USBModem</Feature>
+			<Feature enabled="no">VideoPlayback</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">ActivationKMS</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Features>
+		<Feature name="SmbDirect">false</Feature>
+		<Feature name="MicrosoftWindowsPowerShellV2Root">false</Feature>
+		<Feature name="MicrosoftWindowsPowerShellV2">false</Feature>
+	</Features>
+	<AddPackages></AddPackages>
+	<Drivers showHidden="false">
+		<AddDrivers></AddDrivers>
+	</Drivers>
+	<Unattended mode="0">
+		<OEMSetupComplete>false</OEMSetupComplete>
+		<AnswerFileLocationPanther>false</AnswerFileLocationPanther>
+		<AnswerFileLocationBoot>false</AnswerFileLocationBoot>
+		<SaveBothArch>false</SaveBothArch>
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-Setup">
+				<DynamicUpdate>
+					<WillShowUI>OnError</WillShowUI>
+				</DynamicUpdate>
+				<ImageInstall>
+					<OSImage>
+						<WillShowUI>OnError</WillShowUI>
+						<InstallFrom>
+							<MetaData>
+								<Key>/IMAGE/NAME</Key>
+								<Value>Windows 10 Pro</Value>
+							</MetaData>
+						</InstallFrom>
+					</OSImage>
+				</ImageInstall>
+				<UserData>
+					<ProductKey>
+						<Key></Key>
+					</ProductKey>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks>
+		<Settings>
+			<TweakGroup name="Explorer">
+				<Tweak name="OperationStatusManager\EnthusiastMode">1</Tweak>
+				<Tweak name="AutoplayHandlers\DisableAutoplay">0</Tweak>
+				<Tweak name="Advanced\LaunchTo">1</Tweak>
+				<Tweak name="Advanced\HideFileExt">0</Tweak>
+				<Tweak name="Advanced\Hidden">1</Tweak>
+				<Tweak name="Advanced\ShowSuperHidden">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="CrashControl">
+				<Tweak name="CrashControl\AutoReboot">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Privacy">
+				<Tweak name="System\AllowExperimentation">0</Tweak>
+				<Tweak name="System\AllowLocation">1</Tweak>
+				<Tweak name="DataCollection\AllowTelemetry">7</Tweak>
+				<Tweak name="ContentDeliveryManager\SilentInstalledAppsEnabled">0</Tweak>
+				<Tweak name="ContentDeliveryManager\PreInstalledAppsEnabled">0</Tweak>
+				<Tweak name="ContentDeliveryManager\OemPreInstalledAppsEnabled">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="System">
+				<Tweak name="System\NoConnectedUser">0</Tweak>
+				<Tweak name="System\EnableLinkedConnections">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="UAC">
+				<Tweak name="System\FilterAdministratorToken">1</Tweak>
+				<Tweak name="System\ConsentPromptBehaviorAdmin">0</Tweak>
+				<Tweak name="System\ConsentPromptBehaviorUser">0</Tweak>
+			</TweakGroup>
+		</Settings>
+		<Services>
+			<TweakGroup name="services">
+				<Tweak name="gpsvc\gpsvc">4</Tweak>
+				<Tweak name="LanmanServer\LanmanServer">4</Tweak>
+				<Tweak name="WpnService\WpnService">4</Tweak>
+				<Tweak name="WpnUserService\WpnUserService">4</Tweak>
+				<Tweak name="PushToInstall\PushToInstall">4</Tweak>
+			</TweakGroup>
+		</Services>
+		<ExtraServices>
+			<TweakGroup name="drivers">
+				<Tweak name="Beep\Beep">4</Tweak>
+			</TweakGroup>
+		</ExtraServices>
+	</Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveTrim</Task>
+			<Task>imageFormatEsd</Task>
+			<Task>imageOptionsCreateIso</Task>
+		</ImageTasks>
+		<AutoIsoFile>C:\GS11Lite.iso</AutoIsoFile>
+		<AutoIsoLabel>GS11Lite</AutoIsoLabel>
+		<AutoSplitSize>4000</AutoSplitSize>
+		<CleanHotfixedLeftovers>false</CleanHotfixedLeftovers>
+		<ReuseDriverCache>false</ReuseDriverCache>
+	</ApplyOptions>
+	<Execution>
+		<Add>
+			<Item type="Placeholder">
+				<Index>1</Index>
+			</Item>
+		</Add>
+		<Change></Change>
+		<Remove></Remove>
+	</Execution>
+	<Registry></Registry>
+</Preset>
