@@ -35,77 +35,6 @@
 		<c>diskquota 'Disk Quota'</c>
 		<c>dmwappushsvc 'WAP Push Message Routing Service (dmwappushsvc)'</c>
 		<c>domainclientssvc 'IPsec Policy Agent'</c>
-		<c>driver_bthlcpen.inf</c>
-		<c>driver_bthmtpenum.inf</c>
-		<c>driver_bthprint.inf</c>
-		<c>driver_bthspp.inf</c>
-		<c>driver_c_fdc.inf</c>
-		<c>driver_c_floppydisk.inf</c>
-		<c>driver_c_image.inf</c>
-		<c>driver_c_infrared.inf</c>
-		<c>driver_c_printer.inf</c>
-		<c>driver_c_smartcard.inf</c>
-		<c>driver_c_smartcardfilter.inf</c>
-		<c>driver_c_smartcardreader.inf</c>
-		<c>driver_c_volsnap.inf</c>
-		<c>driver_eaphost.inf</c>
-		<c>driver_fdc.inf</c>
-		<c>driver_flpydisk.inf</c>
-		<c>driver_hidbth.inf</c>
-		<c>driver_hidbthle.inf</c>
-		<c>driver_hidir.inf</c>
-		<c>driver_hidirkbd.inf</c>
-		<c>driver_image.inf</c>
-		<c>driver_kdnic.inf</c>
-		<c>driver_mbtr8897w81x64.inf</c>
-		<c>driver_mdmbtmdm.inf</c>
-		<c>driver_microsoft_bluetooth_avrcptransport.inf</c>
-		<c>driver_modemcsa.inf</c>
-		<c>driver_msclmd.inf</c>
-		<c>driver_msdv.inf</c>
-		<c>driver_msgpiowin32.inf</c>
-		<c>driver_ntprint.inf</c>
-		<c>driver_ntprint4.inf</c>
-		<c>driver_printqueue.inf</c>
-		<c>driver_prnge001.inf</c>
-		<c>driver_prnms002.inf</c>
-		<c>driver_prnms003.inf</c>
-		<c>driver_prnms004.inf</c>
-		<c>driver_prnms005.inf</c>
-		<c>driver_prnms007.inf</c>
-		<c>driver_prnms008.inf</c>
-		<c>driver_prnms010.inf</c>
-		<c>driver_prnms011.inf</c>
-		<c>driver_prnms012.inf</c>
-		<c>driver_prnms014.inf</c>
-		<c>driver_rdpbus.inf</c>
-		<c>driver_scrawpdo.inf</c>
-		<c>driver_scunknown.inf</c>
-		<c>driver_spaceport.inf</c>
-		<c>driver_termkbd.inf</c>
-		<c>driver_termmou.inf</c>
-		<c>driver_tpmvsc.inf</c>
-		<c>driver_ts_generic.inf</c>
-		<c>driver_tsgenericusbdriver.inf</c>
-		<c>driver_usbcciddriver.inf</c>
-		<c>driver_usbcir.inf</c>
-		<c>driver_usbprint.inf</c>
-		<c>driver_volsnap.inf</c>
-		<c>driver_wdmvsc.inf</c>
-		<c>driver_wfcvsc.inf</c>
-		<c>driver_wgencounter.inf</c>
-		<c>driver_whyperkbd.inf</c>
-		<c>driver_wnetvsc.inf</c>
-		<c>driver_ws3cap.inf</c>
-		<c>driver_wsdscdrv.inf</c>
-		<c>driver_wstorvsc.inf</c>
-		<c>driver_wudfusbcciddriver.inf</c>
-		<c>driver_wvmbus.inf</c>
-		<c>driver_wvmbushid.inf</c>
-		<c>driver_wvmbusvideo.inf</c>
-		<c>driver_wvmic.inf</c>
-		<c>driver_wvmic_ext.inf</c>
-		<c>driver_wvpci.inf</c>
 		<c>driver_xinputhid.inf</c>
 		<c>dvdplay 'DVD Play'</c>
 		<c>eaphost 'Extensible Authentication Protocol (EAP)'</c>
@@ -203,14 +132,6 @@
 		<c>guardedhost 'Guarded Host'</c>
 		<c>help 'Čarobnjak pomoći Windowsa'</c>
 		<c>helpsupport 'Help file support (CHM)'</c>
-		<c>hwsupport_floppy 'Flopi disk'</c>
-		<c>hwsupport_infrared 'Infracrveni uređaji'</c>
-		<c>hwsupport_internetprintingclient 'Internet Printing klijent'</c>
-		<c>hwsupport_printer 'Printanje'</c>
-		<c>hwsupport_smartcard 'Smartcard'</c>
-		<c>hwsupport_telephony 'Telefonija'</c>
-		<c>hwsupport_tv 'TV Tuner codeci i podrška'</c>
-		<c>hwsupport_wia 'Windows Image Acquisition (WIA)'</c>
 		<c>hyperv 'Hiper-V'</c>
 		<c>hypervguest 'Hyper-V gost'</c>
 		<c>identityfoundation 'Windows Identity Foundation (WIF)'</c>
