@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--File generated with a WinReducer Software created by Winterstorm2050 from www.winreducer.net-->
 <Packages>
-  <WinReducerEX>100</WinReducerEX>
-  <Version>v2.4.2.0</Version>
-  <Date>Friday 6 November 2020 00:50:11</Date>
+  <WinReducerEX>110</WinReducerEX>
+  <Version>v0.9.4.0</Version>
+  <Date>3/31/2022 12:28:46 AM</Date>
   <Components>
     <Element Category="Appearance" Name="Activate Desktop Context Menu" Selected="true" Value="" />
     <Element Category="Appearance" Name="Safe Mode" Selected="true" Value="Safe Mode" />
@@ -1684,6 +1684,7 @@
     <Element Category="WinReducer Options" Name="ISO File Creator (Save in a WIM File)" Selected="true" Folder="C:\Nova mapa" SplitSize="40000" UEFIBoot="UEFI &amp; BIOS" FolderTransfert="" />
     <Element Category="WinReducer Options" Name="ISO File Creator (Save in an ISO File)" Selected="false" Folder="" ISOName="" ISOLabel="" UEFIBoot="" />
     <Element Category="WinReducer Options" Name="Shutdown computer when finished" Selected="false" />
+    <Element Category="WinReducer Options" Name="Standby computer when finished" Selected="false" />
     <Element Category="WinReducer Options" Name="Show on Top" Selected="true" />
   </Components>
 </Packages>
