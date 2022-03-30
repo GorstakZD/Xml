@@ -387,7 +387,7 @@
 		<AutoIsoFile>C:\GS11Lite.iso</AutoIsoFile>
 		<AutoIsoLabel>GS11Lite</AutoIsoLabel>
 		<AutoSplitSize>4000</AutoSplitSize>
-		<CleanHotfixedLeftovers>false</CleanHotfixedLeftovers>
+		<CleanHotfixedLeftovers>true</CleanHotfixedLeftovers>
 		<ReuseDriverCache>false</ReuseDriverCache>
 	</ApplyOptions>
 	<Execution>
