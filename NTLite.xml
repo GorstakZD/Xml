@@ -1,4 +1,4 @@
-Ôªø<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
 	<Date>11/29/2021 14:19:45</Date>
 	<AppInfo>
@@ -12,10 +12,11 @@
 		<GUID>{E52D55C4-D5A8-42C4-AE26-323EC70AFA50}</GUID>
 	</ImageInfo>
 	<RemoveComponents>
+		<c>Clipchamp.Clipchamp</c>
 		<c>driver_xinputhid.inf</c>
 		<c>dvdplay 'DVD Play'</c>
 		<c>enterpriseclientsync 'Work Folders Client'</c>
-		<c>eudcedit 'Osobni ureƒëivaƒç znakova'</c>
+		<c>eudcedit 'Osobni ureivaË znakova'</c>
 		<c>font_arialblack 'Arial Black'</c>
 		<c>font_bahnschrift 'Bahnschrift'</c>
 		<c>font_calibri 'Calibri'</c>
@@ -122,6 +123,46 @@
 		<c>langthai 'Thai'</c>
 		<c>langturkish 'Turkish'</c>
 		<c>langukrainian 'Ukrainian'</c>
+		<c>Microsoft.549981C3F5F10 '549981C3F5F10'</c>
+		<c>Microsoft.BingNews 'BingNews'</c>
+		<c>Microsoft.BingWeather 'BingWeather'</c>
+		<c>Microsoft.GamingApp 'GamingApp'</c>
+		<c>Microsoft.GetHelp 'GetHelp'</c>
+		<c>Microsoft.Getstarted 'Centar dobrodoölice (PoËetak)'</c>
+		<c>Microsoft.HEIFImageExtension 'HEIFImageExtension'</c>
+		<c>Microsoft.HEVCVideoExtension 'HEVCVideoExtension'</c>
+		<c>Microsoft.MicrosoftOfficeHub 'MicrosoftOfficeHub'</c>
+		<c>Microsoft.MicrosoftSolitaireCollection 'MicrosoftSolitaireCollection'</c>
+		<c>Microsoft.MicrosoftStickyNotes 'MicrosoftStickyNotes'</c>
+		<c>Microsoft.People 'People'</c>
+		<c>Microsoft.PowerAutomateDesktop 'PowerAutomateDesktop'</c>
+		<c>Microsoft.RawImageExtension 'RawImageExtension'</c>
+		<c>Microsoft.ScreenSketch 'ScreenSketch'</c>
+		<c>Microsoft.SecHealthUI 'SecHealthUI'</c>
+		<c>Microsoft.StorePurchaseApp 'StorePurchaseApp'</c>
+		<c>Microsoft.Todos 'Todos'</c>
+		<c>Microsoft.VP9VideoExtensions 'VP9VideoExtensions'</c>
+		<c>Microsoft.WebMediaExtensions 'WebMediaExtensions'</c>
+		<c>Microsoft.WebpImageExtension 'WebpImageExtension'</c>
+		<c>Microsoft.Windows.Photos 'Photos'</c>
+		<c>Microsoft.WindowsAlarms 'WindowsAlarms'</c>
+		<c>Microsoft.WindowsCalculator 'WindowsCalculator'</c>
+		<c>Microsoft.WindowsCamera 'WindowsCamera'</c>
+		<c>microsoft.windowscommunicationsapps 'Windows Mail'</c>
+		<c>Microsoft.WindowsFeedbackHub 'WindowsFeedbackHub'</c>
+		<c>Microsoft.WindowsMaps 'WindowsMaps'</c>
+		<c>Microsoft.WindowsSoundRecorder 'WindowsSoundRecorder'</c>
+		<c>Microsoft.WindowsTerminal 'WindowsTerminal'</c>
+		<c>Microsoft.Xbox.TCUI 'Xbox.TCUI'</c>
+		<c>Microsoft.XboxGameOverlay 'XboxGameOverlay'</c>
+		<c>Microsoft.XboxGamingOverlay 'XboxGamingOverlay'</c>
+		<c>Microsoft.XboxSpeechToTextOverlay 'XboxSpeechToTextOverlay'</c>
+		<c>Microsoft.YourPhone 'YourPhone'</c>
+		<c>Microsoft.ZuneMusic 'ZuneMusic'</c>
+		<c>Microsoft.ZuneVideo 'ZuneVideo'</c>
+		<c>MicrosoftCorporationII.MicrosoftFamily</c>
+		<c>MicrosoftCorporationII.QuickAssist</c>
+		<c>MicrosoftWindows.Client.WebExperience 'MicrosoftClient.WebExperience'</c>
 		<c>manifestbackup 'Manifest Backup (WinSxS$#92;Backup)'</c>
 		<c>manifests 'Windows Component Database'</c>
 		<c>optionalfeatures 'Optional Features'</c>
@@ -210,7 +251,50 @@
 		</settings>
 	</Unattended>
 	<Tweaks>
-		<Settings></Settings>
+		<Settings>
+			<TweakGroup name="DesktopTweaks">
+				<Tweak name="DWM\AccentColor">0</Tweak>
+				<Tweak name="Personalize\AppsUseLightTheme">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Explorer">
+				<Tweak name="OperationStatusManager\EnthusiastMode">1</Tweak>
+				<Tweak name="Explorer\HubMode">1</Tweak>
+				<Tweak name="Advanced\HideFileExt">0</Tweak>
+				<Tweak name="Advanced\Hidden">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="CrashControl">
+				<Tweak name="CrashControl\AutoReboot">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Privacy">
+				<Tweak name="System\AllowExperimentation">0</Tweak>
+				<Tweak name="System\AllowLocation">1</Tweak>
+				<Tweak name="ContentDeliveryManager\SilentInstalledAppsEnabled">0</Tweak>
+				<Tweak name="TrainedDataStore\HarvestContacts">0</Tweak>
+				<Tweak name="InputPersonalization\RestrictImplicitTextCollection">1</Tweak>
+				<Tweak name="InputPersonalization\RestrictImplicitInkCollection">1</Tweak>
+				<Tweak name="ContentDeliveryManager\SystemPaneSuggestionsEnabled">0</Tweak>
+				<Tweak name="Settings\AcceptedPrivacyPolicy">0</Tweak>
+				<Tweak name="ContentDeliveryManager\PreInstalledAppsEnabled">0</Tweak>
+				<Tweak name="ContentDeliveryManager\OemPreInstalledAppsEnabled">0</Tweak>
+				<Tweak name="TIPC\Enabled">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="System">
+				<Tweak name="System\EnableFirstLogonAnimation">0</Tweak>
+				<Tweak name="System\EnableLinkedConnections">0</Tweak>
+				<Tweak name="System\ShutdownWithoutLogon">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="UAC">
+				<Tweak name="System\FilterAdministratorToken">1</Tweak>
+				<Tweak name="System\ConsentPromptBehaviorAdmin">0</Tweak>
+				<Tweak name="System\ConsentPromptBehaviorUser">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Windows">
+				<Tweak name="CloudContent\DisableWindowsConsumerFeatures">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="WindowsUpdate">
+				<Tweak name="Preferences\ModelDownloadAllowed">1</Tweak>
+			</TweakGroup>
+		</Settings>
 		<Services></Services>
 		<ExtraServices></ExtraServices>
 	</Tweaks>
