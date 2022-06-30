@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
+Ôªø<?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>11/29/2021 14:19:45</Date>
+	<Date>06/29/2022 16:52</Date>
 	<AppInfo>
-		<Version>2.3.1.8454</Version>
+		<Version>1.5.0.5855</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 Pro (21H2) x64 - 10.0.19044.1387 (en-US)</Host>
+		<Host>Windows 10 Pro 64-bit - Client 10.0.19041.1 (en-US) - en-US</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 10 Professional (21H2) x64 - 10.0.19044.1348 (en-US)</Version>
-		<GUID>{E52D55C4-D5A8-42C4-AE26-323EC70AFA50}</GUID>
+		<Version mode="offline">Windows 10 Enterprise 64-bit - Client 10.0.22000.318 (en-US)</Version>
+		<GUID>{784427F9-087E-415D-8EED-0873DC06E891}</GUID>
 	</ImageInfo>
 	<RemoveComponents>
-		<c>Clipchamp.Clipchamp</c>
 		<c>driver_xinputhid.inf</c>
 		<c>dvdplay 'DVD Play'</c>
-		<c>enterpriseclientsync 'Work Folders Client'</c>
-		<c>eudcedit 'Osobni ureivaË znakova'</c>
+		<c>embeddedexperience 'Device Lockdown (Embedded Experience)'</c>
+		<c>embeddedmode 'Embedded Mode'</c>
+		<c>firstlogonanim 'Animacija kod prvog logiranja'</c>
 		<c>font_arialblack 'Arial Black'</c>
 		<c>font_bahnschrift 'Bahnschrift'</c>
 		<c>font_calibri 'Calibri'</c>
@@ -58,8 +58,6 @@
 		<c>font_palatinolinotype 'PalatinoLinotype'</c>
 		<c>font_phagspa 'Microsoft PhagsPa'</c>
 		<c>font_phagspabold 'Microsoft PhagsPa Bold'</c>
-		<c>font_segoe_fluent_icons 'Segoe Fluent Icons'</c>
-		<c>font_segoe_ui_variable 'Segoe UI Variable'</c>
 		<c>font_segoeprint 'Segoe Print'</c>
 		<c>font_segoeprintbold 'Segoe Print Bold'</c>
 		<c>font_segoescript 'SegoeScript'</c>
@@ -123,23 +121,24 @@
 		<c>langthai 'Thai'</c>
 		<c>langturkish 'Turkish'</c>
 		<c>langukrainian 'Ukrainian'</c>
+		<c>manifestbackup 'Manifest Backup (WinSxS$#92;Backup)'</c>
+		<c>manifests 'Windows Component Database'</c>
+		<c>manualsetup 'Ruƒçni Setup'</c>
 		<c>Microsoft.549981C3F5F10 '549981C3F5F10'</c>
+		<c>Microsoft.AAD.BrokerPlugin 'AAD.BrokerPlugin'</c>
 		<c>Microsoft.BingNews 'BingNews'</c>
 		<c>Microsoft.BingWeather 'BingWeather'</c>
 		<c>Microsoft.GamingApp 'GamingApp'</c>
 		<c>Microsoft.GetHelp 'GetHelp'</c>
-		<c>Microsoft.Getstarted 'Centar dobrodoölice (PoËetak)'</c>
+		<c>Microsoft.Getstarted 'Centar dobrodo≈°lice (Poƒçetak)'</c>
 		<c>Microsoft.HEIFImageExtension 'HEIFImageExtension'</c>
-		<c>Microsoft.HEVCVideoExtension 'HEVCVideoExtension'</c>
 		<c>Microsoft.MicrosoftOfficeHub 'MicrosoftOfficeHub'</c>
 		<c>Microsoft.MicrosoftSolitaireCollection 'MicrosoftSolitaireCollection'</c>
 		<c>Microsoft.MicrosoftStickyNotes 'MicrosoftStickyNotes'</c>
 		<c>Microsoft.People 'People'</c>
 		<c>Microsoft.PowerAutomateDesktop 'PowerAutomateDesktop'</c>
-		<c>Microsoft.RawImageExtension 'RawImageExtension'</c>
 		<c>Microsoft.ScreenSketch 'ScreenSketch'</c>
 		<c>Microsoft.SecHealthUI 'SecHealthUI'</c>
-		<c>Microsoft.StorePurchaseApp 'StorePurchaseApp'</c>
 		<c>Microsoft.Todos 'Todos'</c>
 		<c>Microsoft.VP9VideoExtensions 'VP9VideoExtensions'</c>
 		<c>Microsoft.WebMediaExtensions 'WebMediaExtensions'</c>
@@ -160,72 +159,71 @@
 		<c>Microsoft.YourPhone 'YourPhone'</c>
 		<c>Microsoft.ZuneMusic 'ZuneMusic'</c>
 		<c>Microsoft.ZuneVideo 'ZuneVideo'</c>
-		<c>MicrosoftCorporationII.MicrosoftFamily</c>
-		<c>MicrosoftCorporationII.QuickAssist</c>
 		<c>MicrosoftWindows.Client.WebExperience 'MicrosoftClient.WebExperience'</c>
-		<c>manifestbackup 'Manifest Backup (WinSxS$#92;Backup)'</c>
-		<c>manifests 'Windows Component Database'</c>
+		<c>migwiz 'Easy Transfer'</c>
+		<c>netframeworkaspnet4 'ASP.NET 4.7'</c>
 		<c>optionalfeatures 'Optional Features'</c>
+		<c>rdpserver 'Remote Desktop Server'</c>
+		<c>remoteaccessservice 'Usmjeravanje i daljinski pristup usluga'</c>
+		<c>remoteaccesssupport 'Routing and Remote Access support'</c>
+		<c>remoteassistance 'Remote Assistance'</c>
+		<c>remoteportredirector 'Remote Desktop Services Port Redirector'</c>
+		<c>remoteregistry 'Remote Registry'</c>
+		<c>retaildemo 'Retail Demo Content'</c>
+		<c>sharedpc 'Shared PC mode'</c>
 		<c>smbv1 'SMB v1'</c>
-		<c>sourcessxsdir 'Manual feature repository'</c>
+		<c>speechcommon 'Prepoznavanje govora'</c>
+		<c>speechtts 'Speech TTS'</c>
+		<c>supportdir 'Support directory'</c>
+		<c>tempcache 'Cache i temp datoteke'</c>
+		<c>winre 'Windows oporavak'</c>
+		<c>winrm 'Windows Remote Management (WS-Management)'</c>
 		<c>winsxs 'Windows Component Store (WinSxS)'</c>
 	</RemoveComponents>
 	<Compatibility protectHidden="true">
 		<ComponentFeatures>
-			<Feature enabled="no">CapFrameX</Feature>
-			<Feature enabled="no">Discord</Feature>
-			<Feature enabled="no">FileSharing</Feature>
-			<Feature enabled="no">Hyper-V</Feature>
-			<Feature enabled="no">ManualSetup</Feature>
-			<Feature enabled="no">Edge</Feature>
-			<Feature enabled="no">OfficeSupport</Feature>
-			<Feature enabled="no">Netflix</Feature>
-			<Feature enabled="no">NetworkDiscovery</Feature>
-			<Feature enabled="no">NvidiaSetup</Feature>
-			<Feature enabled="no">OOBE</Feature>
-			<Feature enabled="no">Printing</Feature>
-			<Feature enabled="no">Recommended-All</Feature>
-			<Feature enabled="no">SamsungSwitch</Feature>
-			<Feature enabled="no">ServicingStack</Feature>
-			<Feature enabled="no">ShellSearchSupport</Feature>
-			<Feature enabled="no">Spotify</Feature>
 			<Feature enabled="no">DefaultFonts</Feature>
-			<Feature enabled="no">SafeMode</Feature>
-			<Feature enabled="no">TeamViewer</Feature>
-			<Feature enabled="no">Recommended-Tablet</Feature>
-			<Feature enabled="no">USBModem</Feature>
-			<Feature enabled="no">USB</Feature>
-			<Feature enabled="no">VideoPlayback</Feature>
-			<Feature enabled="no">VPN</Feature>
-			<Feature enabled="no">VisualStudio</Feature>
-			<Feature enabled="no">ActivationKMS</Feature>
-			<Feature enabled="no">Activation</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">OfficeSupport</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="no">OOBE</Feature>
 			<Feature enabled="no">AppxSupport</Feature>
-			<Feature enabled="no">WindowsUpdate</Feature>
+			<Feature enabled="no">Recommended-All</Feature>
+			<Feature enabled="no">Printing</Feature>
+			<Feature enabled="no">ManualSetup</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="no">USB</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="no">VideoPlayback</Feature>
+			<Feature enabled="no">Activation</Feature>
+			<Feature enabled="no">ActivationKMS</Feature>
 			<Feature enabled="no">WLAN</Feature>
 		</ComponentFeatures>
 		<MachineDrivers>
-			<Machine enabled="yes">HostMachine</Machine>
 			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="yes">HostMachine</Machine>
 			<Machine enabled="no">Parallels VM</Machine>
 			<Machine enabled="no">Virtual Box VM</Machine>
 			<Machine enabled="no">VMware VM</Machine>
 		</MachineDrivers>
 	</Compatibility>
-	<Features></Features>
-	<Packages></Packages>
-	<Commands>
-		<PostUpdates>
-			<!--<Command>example [MOUNTDIR]\Windows parameters</Command>-->
-		</PostUpdates>
-	</Commands>
-	<Drivers showHidden="true"></Drivers>
+	<Features>
+		<Feature name="Printing-Foundation-InternetPrinting-Client">false</Feature>
+		<Feature name="Printing-XPSServices-Features">false</Feature>
+		<Feature name="Printing-Foundation-Features">false</Feature>
+		<Feature name="SmbDirect">false</Feature>
+		<Feature name="SearchEngine-Client-Package">false</Feature>
+	</Features>
+	<AddPackages></AddPackages>
+	<Drivers showHidden="true">
+		<AddDrivers></AddDrivers>
+	</Drivers>
 	<Unattended mode="0">
 		<OEMSetupComplete>false</OEMSetupComplete>
 		<AnswerFileLocationPanther>false</AnswerFileLocationPanther>
 		<AnswerFileLocationBoot>false</AnswerFileLocationBoot>
 		<SaveBothArch>false</SaveBothArch>
-		<EditionPrompt>false</EditionPrompt>
 		<settings pass="windowsPE">
 			<component name="Microsoft-Windows-Setup">
 				<DynamicUpdate>
@@ -236,8 +234,8 @@
 						<WillShowUI>OnError</WillShowUI>
 						<InstallFrom>
 							<MetaData>
-								<Key>/IMAGE/INDEX</Key>
-								<Value>1</Value>
+								<Key>/IMAGE/NAME</Key>
+								<Value>Windows 10 Pro</Value>
 							</MetaData>
 						</InstallFrom>
 					</OSImage>
@@ -253,35 +251,69 @@
 	<Tweaks>
 		<Settings>
 			<TweakGroup name="DesktopTweaks">
-				<Tweak name="DWM\AccentColor">0</Tweak>
 				<Tweak name="Personalize\AppsUseLightTheme">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="Explorer">
 				<Tweak name="OperationStatusManager\EnthusiastMode">1</Tweak>
+				<Tweak name="AutoplayHandlers\DisableAutoplay">0</Tweak>
+				<Tweak name="Advanced\LaunchTo">1</Tweak>
 				<Tweak name="Explorer\HubMode">1</Tweak>
+				<Tweak name="Advanced\ShowTaskViewButton">0</Tweak>
+				<Tweak name="Advanced\SharingWizardOn">1</Tweak>
 				<Tweak name="Advanced\HideFileExt">0</Tweak>
 				<Tweak name="Advanced\Hidden">1</Tweak>
+				<Tweak name="Advanced\ShowSuperHidden">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="InternetExplorer">
+				<Tweak name="Main\Isolation64Bit">1</Tweak>
+				<Tweak name="Main\Isolation">PMEM</Tweak>
+			</TweakGroup>
+			<TweakGroup name="AppCompat">
+				<Tweak name=".NETFramework\OnlyUseLatestCLR">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="CrashControl">
 				<Tweak name="CrashControl\AutoReboot">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="Privacy">
-				<Tweak name="System\AllowExperimentation">0</Tweak>
 				<Tweak name="System\AllowLocation">1</Tweak>
-				<Tweak name="ContentDeliveryManager\SilentInstalledAppsEnabled">0</Tweak>
-				<Tweak name="TrainedDataStore\HarvestContacts">0</Tweak>
-				<Tweak name="InputPersonalization\RestrictImplicitTextCollection">1</Tweak>
-				<Tweak name="InputPersonalization\RestrictImplicitInkCollection">1</Tweak>
+				<Tweak name="DataCollection\AllowTelemetry">3</Tweak>
+				<Tweak name="ContentDeliveryManager\SilentInstalledAppsEnabled">1</Tweak>
+				<Tweak name="{9231CB4C-BF57-4AF3-8C55-FDA7BFCC04C5}\Value">Allow</Tweak>
+				<Tweak name="{D89823BA-7180-4B81-B50C-7E471E6121A3}\Value">Deny</Tweak>
+				<Tweak name="{8BC668CF-7728-45BD-93F8-CF2B3B41D7AB}\Value">Deny</Tweak>
+				<Tweak name="{7D7E8402-7C54-4821-A34E-AEEFD62DED93}\Value">Deny</Tweak>
+				<Tweak name="{2297E4E2-5DBE-466D-A12B-0F8286F0D9CA}\Value">Deny</Tweak>
+				<Tweak name="{21157C1F-2651-4CC1-90CA-1F28B02263F6}\Value">Deny</Tweak>
+				<Tweak name="{9D9E0118-1807-4F2E-96E4-2CE57142E196}\Value">Deny</Tweak>
+				<Tweak name="{52079E78-A92B-413F-B213-E8FE35712E72}\Value">Deny</Tweak>
+				<Tweak name="{E83AF229-8640-4D18-A213-E22675EBB2C3}\Value">Deny</Tweak>
+				<Tweak name="{B19F89AF-E3EB-444B-8DEA-202575A71599}\Value">Deny</Tweak>
+				<Tweak name="{235B668D-B2AC-4864-B49C-ED1084F6C9D3}\Value">Deny</Tweak>
+				<Tweak name="{C1D23ACC-752B-43E5-8448-8D0E519CD6D6}\Value">Allow</Tweak>
+				<Tweak name="{A8804298-2D5F-42E3-9531-9C8C39EB29CE}\Value">Allow</Tweak>
+				<Tweak name="SmartGlass\UserAuthPolicy">0</Tweak>
+				<Tweak name="SmartGlass\BluetoothPolicy">0</Tweak>
+				<Tweak name="{992AFA70-6F47-4148-B3E9-3003349C1548}\Value">Allow</Tweak>
+				<Tweak name="BackgroundAccessApplications\GlobalUserDisabled">1</Tweak>
+				<Tweak name="LooselyCoupled\Value">Deny</Tweak>
+				<Tweak name="{E5323777-F976-4f5b-9B55-B94699C46E44}\Value">Allow</Tweak>
+				<Tweak name="{2EEF81BE-33FA-4800-9670-1CD474972C3F}\Value">Allow</Tweak>
+				<Tweak name="{E390DF20-07DF-446D-B962-F5C953062741}\Value">Deny</Tweak>
+				<Tweak name="AdvertisingInfo\Enabled">1</Tweak>
+				<Tweak name="Privacy\TailoredExperiencesWithDiagnosticDataEnabled">1</Tweak>
 				<Tweak name="ContentDeliveryManager\SystemPaneSuggestionsEnabled">0</Tweak>
 				<Tweak name="Settings\AcceptedPrivacyPolicy">0</Tweak>
 				<Tweak name="ContentDeliveryManager\PreInstalledAppsEnabled">0</Tweak>
 				<Tweak name="ContentDeliveryManager\OemPreInstalledAppsEnabled">0</Tweak>
 				<Tweak name="TIPC\Enabled">0</Tweak>
+				<Tweak name="Explorer\ShowFrequent">0</Tweak>
+				<Tweak name="Explorer\ShowRecent">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="System">
 				<Tweak name="System\EnableFirstLogonAnimation">0</Tweak>
+				<Tweak name="System\NoConnectedUser">0</Tweak>
 				<Tweak name="System\EnableLinkedConnections">0</Tweak>
-				<Tweak name="System\ShutdownWithoutLogon">0</Tweak>
+				<Tweak name="System\ShutdownWithoutLogon">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="UAC">
 				<Tweak name="System\FilterAdministratorToken">1</Tweak>
@@ -290,31 +322,35 @@
 			</TweakGroup>
 			<TweakGroup name="Windows">
 				<Tweak name="CloudContent\DisableWindowsConsumerFeatures">1</Tweak>
-			</TweakGroup>
-			<TweakGroup name="WindowsUpdate">
-				<Tweak name="Preferences\ModelDownloadAllowed">1</Tweak>
+				<Tweak name="Configuration\DisableResetbase">0</Tweak>
 			</TweakGroup>
 		</Settings>
 		<Services></Services>
-		<ExtraServices></ExtraServices>
+		<ExtraServices>
+			<TweakGroup name="drivers">
+				<Tweak name="Beep\Beep">4</Tweak>
+			</TweakGroup>
+		</ExtraServices>
 	</Tweaks>
 	<ApplyOptions>
 		<ImageTasks>
 			<Task>imageSaveTrim</Task>
-			<Task>deledition_boot.wim_01_9_64</Task>
-			<Task>imageFormatEsd</Task>
-			<Task>imageOptionsDontBackupPresetLog</Task>
+			<Task>imageFormatWim</Task>
 		</ImageTasks>
 		<AutoIsoFile>NTLite.iso</AutoIsoFile>
 		<AutoIsoLabel>NTLite</AutoIsoLabel>
 		<AutoSplitSize>4000</AutoSplitSize>
-		<CleanHotfixedLeftovers>0</CleanHotfixedLeftovers>
+		<CleanHotfixedLeftovers>true</CleanHotfixedLeftovers>
 		<ReuseDriverCache>false</ReuseDriverCache>
 	</ApplyOptions>
 	<Execution>
-		<Remove></Remove>
+		<Add>
+			<Item type="Placeholder">
+				<Index>1</Index>
+			</Item>
+		</Add>
 		<Change></Change>
-		<Add></Add>
+		<Remove></Remove>
 	</Execution>
 	<Registry></Registry>
 </Preset>
