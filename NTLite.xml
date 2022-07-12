@@ -601,7 +601,6 @@
 		<c>Microsoft.BingWeather 'BingWeather'</c>
 		<c>Microsoft.BioEnrollment 'BioEnrollment'</c>
 		<c>Microsoft.CredDialogHost 'CredDialogHost'</c>
-		<c>Microsoft.DesktopAppInstaller 'DesktopAppInstaller'</c>
 		<c>Microsoft.ECApp 'ECApp'</c>
 		<c>Microsoft.GamingApp 'GamingApp'</c>
 		<c>Microsoft.GetHelp 'GetHelp'</c>
@@ -615,15 +614,12 @@
 		<c>Microsoft.MicrosoftStickyNotes 'MicrosoftStickyNotes'</c>
 		<c>Microsoft.NET.Native.Framework.2.2 'NET.Native.Framework.2.2'</c>
 		<c>Microsoft.NET.Native.Runtime.2.2 'NET.Native.Runtime.2.2'</c>
-		<c>Microsoft.Paint 'Paint'</c>
 		<c>Microsoft.People 'People'</c>
 		<c>Microsoft.PowerAutomateDesktop 'PowerAutomateDesktop'</c>
 		<c>Microsoft.ScreenSketch 'ScreenSketch'</c>
 		<c>Microsoft.SecHealthUI 'SecHealthUI'</c>
 		<c>Microsoft.StorePurchaseApp 'StorePurchaseApp'</c>
 		<c>Microsoft.Todos 'Todos'</c>
-		<c>Microsoft.UI.Xaml.2.4 'UI.Xaml.2.4'</c>
-		<c>Microsoft.UI.Xaml.CBS 'UI.Xaml.CBS'</c>
 		<c>Microsoft.VCLibs.140.00.UWPDesktop 'VCLibs.140.00.UWPDesktop'</c>
 		<c>Microsoft.VCLibs.140.00 'VCLibs.140.00'</c>
 		<c>Microsoft.VP9VideoExtensions 'VP9VideoExtensions'</c>
@@ -636,15 +632,12 @@
 		<c>Microsoft.Windows.CapturePicker 'CapturePicker'</c>
 		<c>Microsoft.Windows.ContentDeliveryManager 'ContentDeliveryManager'</c>
 		<c>Microsoft.Windows.NarratorQuickStart 'NarratorQuickStart'</c>
-		<c>Microsoft.Windows.OOBENetworkCaptivePortal 'OOBENetworkCaptivePortal'</c>
-		<c>Microsoft.Windows.OOBENetworkConnectionFlow 'OOBENetworkConnectionFlow'</c>
 		<c>Microsoft.Windows.ParentalControls 'ParentalControls'</c>
 		<c>Microsoft.Windows.PeopleExperienceHost 'PeopleExperienceHost'</c>
 		<c>Microsoft.Windows.Photos 'Photos'</c>
 		<c>Microsoft.Windows.PinningConfirmationDialog 'PinningConfirmationDialog'</c>
 		<c>Microsoft.Windows.Search 'Search'</c>
 		<c>Microsoft.Windows.SecureAssessmentBrowser 'SecureAssessmentBrowser'</c>
-		<c>Microsoft.Windows.StartMenuExperienceHost 'StartMenuExperienceHost'</c>
 		<c>Microsoft.Windows.XGpuEjectDialog 'XGpuEjectDialog'</c>
 		<c>Microsoft.WindowsAlarms 'WindowsAlarms'</c>
 		<c>Microsoft.WindowsCalculator 'WindowsCalculator'</c>
@@ -652,15 +645,12 @@
 		<c>microsoft.windowscommunicationsapps 'Windows Mail'</c>
 		<c>Microsoft.WindowsFeedbackHub 'WindowsFeedbackHub'</c>
 		<c>Microsoft.WindowsMaps 'WindowsMaps'</c>
-		<c>Microsoft.WindowsNotepad 'WindowsNotepad'</c>
 		<c>Microsoft.WindowsSoundRecorder 'WindowsSoundRecorder'</c>
-		<c>Microsoft.WindowsStore 'WindowsStore'</c>
 		<c>Microsoft.WindowsTerminal 'WindowsTerminal'</c>
 		<c>Microsoft.Xbox.TCUI 'Xbox.TCUI'</c>
 		<c>Microsoft.XboxGameCallableUI 'XboxGameCallableUI'</c>
 		<c>Microsoft.XboxGameOverlay 'XboxGameOverlay'</c>
 		<c>Microsoft.XboxGamingOverlay 'XboxGamingOverlay'</c>
-		<c>Microsoft.XboxIdentityProvider 'XboxIdentityProvider'</c>
 		<c>Microsoft.XboxSpeechToTextOverlay 'XboxSpeechToTextOverlay'</c>
 		<c>Microsoft.YourPhone 'YourPhone'</c>
 		<c>Microsoft.ZuneMusic 'ZuneMusic'</c>
