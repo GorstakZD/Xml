@@ -51,12 +51,12 @@
     <Element Category="Features" Name="Data Center Bridging (DCB)" Selected="true" Value="3" />
     <Element Category="Features" Name="Direct Play" Selected="false" Value="" />
     <Element Category="Features" Name="Host Guardian" Selected="true" Value="3" />
-    <Element Category="Features" Name="Hyper-V" Selected="true" Value="3" />
+    <Element Category="Features" Name="Hyper-V" Selected="true" Value="1" />
     <Element Category="Features" Name="Internet Explorer 11" Selected="true" Value="3" />
     <Element Category="Features" Name="Internet Information Services (IIS)" Selected="true" Value="3" />
     <Element Category="Features" Name="Microsoft Message Queuing (MSMQ)" Selected="true" Value="3" />
     <Element Category="Features" Name="MultiPoint Connector" Selected="true" Value="3" />
-    <Element Category="Features" Name="Net Framework 3.5" Selected="false" Value="" />
+    <Element Category="Features" Name="Net Framework 3.5" Selected="true" Value="1" />
     <Element Category="Features" Name="Net Framework 4.6 Network Advanced Services" Selected="false" Value="" />
     <Element Category="Features" Name="Printing - LPR Port Monitor" Selected="false" Value="" />
     <Element Category="Features" Name="Printing - LPD Print Service" Selected="false" Value="" />
@@ -74,10 +74,10 @@
     <Element Category="Features" Name="Windows Identity Foundation 3.5" Selected="true" Value="3" />
     <Element Category="Features" Name="Windows Media Player" Selected="true" Value="3" />
     <Element Category="Features" Name="Windows PowerShell" Selected="false" Value="" />
-    <Element Category="Features" Name="Windows Sandbox" Selected="true" Value="3" />
+    <Element Category="Features" Name="Windows Sandbox" Selected="true" Value="1" />
     <Element Category="Features" Name="Windows Search" Selected="false" Value="" />
     <Element Category="Features" Name="Windows Subsystem for Linux" Selected="true" Value="3" />
-    <Element Category="Features" Name="Work Folders" Selected="false" Value="3" />
+    <Element Category="Features" Name="Work Folders" Selected="false" Value="" />
     <Element Category="Features" Name="XPS Viewer and Printer" Selected="true" Value="3" />
     <Element Category="Remove - Accessories" Name="16-bit Support" Selected="true" />
     <Element Category="Remove - Accessories" Name="Adaptive Cards" Selected="true" />
@@ -400,9 +400,9 @@
     <Element Category="Remove - Drivers" Name="Printer - Xerox" Selected="true" />
     <Element Category="Remove - Drivers" Name="Printer - XPS" Selected="true" />
     <Element Category="Remove - Drivers" Name="Processor - AMD" Selected="false" />
-    <Element Category="EXPERIMENTAL - Remove - Drivers" Name="Processor - AMD - Microcode Update" Selected="true" Value="" />
+    <Element Category="EXPERIMENTAL - Remove - Drivers" Name="Processor - AMD - Microcode Update" Selected="false" Value="" />
     <Element Category="Remove - Drivers" Name="Processor - INTEL" Selected="false" />
-    <Element Category="EXPERIMENTAL - Remove - Drivers" Name="Processor - INTEL - Microcode Update" Selected="true" Value="" />
+    <Element Category="EXPERIMENTAL - Remove - Drivers" Name="Processor - INTEL - Microcode Update" Selected="false" Value="" />
     <Element Category="Remove - Drivers" Name="Processor - VIA" Selected="false" />
     <Element Category="Remove - Drivers" Name="Scanner - Brother" Selected="true" />
     <Element Category="Remove - Drivers" Name="Scanner - Canon" Selected="true" />
@@ -1498,7 +1498,7 @@
     <Element Category="Services" Name="Graphics Performance Service" Selected="true" Value="3" />
     <Element Category="Services" Name="HomeGroup Listener and Provider Services" Selected="false" Value="" />
     <Element Category="Services" Name="Human Interface Device (HID) Service" Selected="false" Value="" />
-    <Element Category="Services" Name="HyperV Services" Selected="true" Value="5" />
+    <Element Category="Services" Name="HyperV Services" Selected="false" Value="" />
     <Element Category="Services" Name="Infrared Monitor Service" Selected="true" Value="3" />
     <Element Category="Services" Name="Internet Connection Sharing (ICS) Service" Selected="true" Value="5" />
     <Element Category="Services" Name="IP Translation Configuration Service" Selected="false" Value="" />
