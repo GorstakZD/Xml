@@ -334,7 +334,6 @@
 		<c>driver_tape.inf</c>
 		<c>driver_termkbd.inf</c>
 		<c>driver_termmou.inf</c>
-		<c>driver_tpm.inf</c>
 		<c>driver_tpmvsc.inf</c>
 		<c>driver_transfercable.inf</c>
 		<c>driver_ts_generic.inf</c>
@@ -522,6 +521,7 @@
 		<c>lxss 'Windows Subsystem for Linux'</c>
 		<c>manifestbackup 'Manifest Backup (WinSxS$#92;Backup)'</c>
 		<c>manifests 'Windows Component Database'</c>
+		<c>manualsetup 'Ručni Setup'</c>
 		<c>mediaplayer 'Windows Media Player'</c>
 		<c>mediaplayernetworksharing 'WMP Network Sharing Service'</c>
 		<c>messagingsvc 'Messaging Service'</c>
@@ -598,12 +598,14 @@
 		<c>smbv1 'SMB v1'</c>
 		<c>smsrouter 'SMS Router Service'</c>
 		<c>soundsdefault 'Zvukovi (zadano)'</c>
+		<c>sourcessxsdir 'Manual feature repository'</c>
 		<c>srumon 'Data Usage service'</c>
 		<c>sstackwow64 'Servicing Stack (WOW64)'</c>
 		<c>staticfontcache 'Static Font Cache'</c>
 		<c>stepsrecorder 'Steps Recorder'</c>
 		<c>storageqos 'Storage Quality of Service (Storage QoS)'</c>
 		<c>storagespaces 'Storage Spaces'</c>
+		<c>supportdir 'Support directory'</c>
 		<c>symboliclinks 'Legacy symbolic links'</c>
 		<c>synccenter 'Sync Centar'</c>
 		<c>systemrestore 'Vraćanje sustava'</c>
@@ -613,7 +615,6 @@
 		<c>textprediction 'Predviđanje teksta'</c>
 		<c>tftpclient 'TFTP client'</c>
 		<c>tieringengine 'Storage Tiers Management'</c>
-		<c>tpm 'Trusted Platform Module (TPM)'</c>
 		<c>tpmvsc 'Virtualna Smart Card'</c>
 		<c>trkwks 'Distributed Link Tracking Client'</c>
 		<c>uev 'User Experience Virtualization (UE-V)'</c>
