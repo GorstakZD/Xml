@@ -1,53 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>07/22/2022 11:52</Date>
+<Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>07/19/2022 22:41</Date>
 	<AppInfo>
 		<Version>1.5.0.5855</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 Pro 64-bit - Client 10.0.22621.1 (en-US) - en-US</Host>
+		<Host>Windows 10 Enterprise LTSC 2019 64-bit - Client 10.0.17763.1 (en-US) - en-US</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 10 Enterprise 64-bit - Client 10.0.22000.318 (en-US)</Version>
-		<GUID>{784427F9-087E-415D-8EED-0873DC06E891}</GUID>
+		<Version mode="offline">Windows 10 Enterprise 64-bit - Client 10.0.22621.1 (en-US)</Version>
+		<GUID>{31FE3A78-4F2A-42C1-B96F-CCBB15D6CF0A}</GUID>
 	</ImageInfo>
 	<RemoveComponents>
-		<c>accessibility 'Alati pristupačnosti'</c>
-		<c>alljoyn 'AllJoyn Router Service'</c>
-		<c>appv 'Application Virtualization (App-V)'</c>
-		<c>assembly.net 'NET sklop predmemorije'</c>
-		<c>autoplay 'Automatska reprodukcija'</c>
-		<c>axinstall 'ActiveX Installer Service'</c>
-		<c>azuread 'Azure Active Directory'</c>
-		<c>backup 'Windows sigurnosna kopija'</c>
-		<c>branchcacheclient 'BranchCache Client'</c>
-		<c>charmap 'Character Map'</c>
-		<c>containers</c>
-		<c>driver_c_volsnap.inf</c>
-		<c>driver_kdnic.inf</c>
-		<c>driver_rdpbus.inf</c>
-		<c>driver_spaceport.inf</c>
-		<c>driver_volsnap.inf</c>
-		<c>driver_wdmvsc.inf</c>
-		<c>driver_wfcvsc.inf</c>
-		<c>driver_wgencounter.inf</c>
-		<c>driver_whyperkbd.inf</c>
-		<c>driver_wnetvsc.inf</c>
-		<c>driver_ws3cap.inf</c>
-		<c>driver_wstorflt.inf</c>
-		<c>driver_wstorvsc.inf</c>
-		<c>driver_wvmbus.inf</c>
-		<c>driver_wvmbushid.inf</c>
-		<c>driver_wvmbusvideo.inf</c>
-		<c>driver_wvmic.inf</c>
-		<c>driver_wvmic_ext.inf</c>
-		<c>driver_wvpci.inf</c>
 		<c>driver_xinputhid.inf</c>
-		<c>dvdplay 'DVD Play'</c>
 		<c>embeddedexperience 'Device Lockdown (Embedded Experience)'</c>
 		<c>embeddedmode 'Embedded Mode'</c>
-		<c>enterpriseclientsync 'Work Folders Client'</c>
-		<c>eudcedit 'Osobni uređivač znakova'</c>
 		<c>firstlogonanim 'Animacija kod prvog logiranja'</c>
 		<c>font_arialblack 'Arial Black'</c>
 		<c>font_bahnschrift 'Bahnschrift'</c>
@@ -65,7 +32,6 @@
 		<c>font_franklingothic 'FranklinGothic'</c>
 		<c>font_gabriola 'Gabriola'</c>
 		<c>font_georgia 'Georgia'</c>
-		<c>font_holomd2 'Holo MDL2 Assets'</c>
 		<c>font_impact 'Impact'</c>
 		<c>font_inkfree 'Ink Free'</c>
 		<c>font_javanesetext 'Javanese Text'</c>
@@ -90,8 +56,6 @@
 		<c>font_palatinolinotype 'PalatinoLinotype'</c>
 		<c>font_phagspa 'Microsoft PhagsPa'</c>
 		<c>font_phagspabold 'Microsoft PhagsPa Bold'</c>
-		<c>font_segoe_fluent_icons 'Segoe Fluent Icons'</c>
-		<c>font_segoe_ui_variable 'Segoe UI Variable'</c>
 		<c>font_segoeprint 'Segoe Print'</c>
 		<c>font_segoeprintbold 'Segoe Print Bold'</c>
 		<c>font_segoescript 'SegoeScript'</c>
@@ -113,15 +77,6 @@
 		<c>font_yugothicbold 'Yu Gothic Bold &amp; Yu Gothic UI Semibold &amp; Yu Gothic UI Bold'</c>
 		<c>font_yugothiclight 'Yu Gothic Light &amp; Yu Gothic UI Light'</c>
 		<c>font_yugothicmedium 'Yu Gothic Medium &amp; Yu Gothic UI Regular'</c>
-		<c>gameexplorer 'Game Explorer'</c>
-		<c>guardedhost 'Guarded Host'</c>
-		<c>help 'Čarobnjak pomoći Windowsa'</c>
-		<c>helpsupport 'Help file support (CHM)'</c>
-		<c>hyperv 'Hiper-V'</c>
-		<c>hypervguest 'Hyper-V gost'</c>
-		<c>indeo 'Intel Indeo Codeci'</c>
-		<c>iscsi 'iSCSI Initiator'</c>
-		<c>isolatedusermode 'Isolated user mode (IUM)'</c>
 		<c>kerneldebug 'Kernel Debugging'</c>
 		<c>langarabic 'Arabic'</c>
 		<c>langbulgarian 'Bulgarian'</c>
@@ -153,7 +108,6 @@
 		<c>langpolish 'Polish'</c>
 		<c>langportuguesebr 'Portuguese (Brazilian)'</c>
 		<c>langportuguesept 'Portuguese'</c>
-		<c>langpseudolocale 'Pseudo-locale'</c>
 		<c>langromanian 'Romanian'</c>
 		<c>langrussian 'Russian'</c>
 		<c>langserbian 'Serbian'</c>
@@ -165,115 +119,17 @@
 		<c>langturkish 'Turkish'</c>
 		<c>langukrainian 'Ukrainian'</c>
 		<c>manifestbackup 'Manifest Backup (WinSxS$#92;Backup)'</c>
-		<c>manifests 'Windows Component Database'</c>
 		<c>manualsetup 'Ručni Setup'</c>
-		<c>mediaplayer 'Windows Media Player'</c>
-		<c>mediaplayernetworksharing 'WMP Network Sharing Service'</c>
-		<c>messagingsvc 'Messaging Service'</c>
-		<c>Microsoft.AAD.BrokerPlugin 'AAD.BrokerPlugin'</c>
-		<c>Microsoft.AsyncTextService 'AsyncTextService'</c>
-		<c>Microsoft.BingNews 'BingNews'</c>
-		<c>Microsoft.BingWeather 'BingWeather'</c>
-		<c>Microsoft.BioEnrollment 'BioEnrollment'</c>
-		<c>Microsoft.CredDialogHost 'CredDialogHost'</c>
-		<c>Microsoft.DesktopAppInstaller 'DesktopAppInstaller'</c>
-		<c>Microsoft.ECApp 'ECApp'</c>
-		<c>Microsoft.GamingApp 'GamingApp'</c>
-		<c>Microsoft.GetHelp 'GetHelp'</c>
-		<c>Microsoft.Getstarted 'Centar dobrodošlice (Početak)'</c>
-		<c>Microsoft.HEIFImageExtension 'HEIFImageExtension'</c>
-		<c>Microsoft.LockApp 'LockApp'</c>
-		<c>Microsoft.MicrosoftEdge 'MicrosoftEdge'</c>
-		<c>Microsoft.MicrosoftEdgeDevToolsClient 'MicrosoftEdgeDevToolsClient'</c>
-		<c>Microsoft.MicrosoftOfficeHub 'MicrosoftOfficeHub'</c>
-		<c>Microsoft.MicrosoftSolitaireCollection 'MicrosoftSolitaireCollection'</c>
-		<c>Microsoft.MicrosoftStickyNotes 'MicrosoftStickyNotes'</c>
-		<c>Microsoft.People 'People'</c>
-		<c>Microsoft.PowerAutomateDesktop 'PowerAutomateDesktop'</c>
-		<c>Microsoft.ScreenSketch 'ScreenSketch'</c>
-		<c>Microsoft.SecHealthUI 'SecHealthUI'</c>
-		<c>Microsoft.Todos 'Todos'</c>
-		<c>Microsoft.VP9VideoExtensions 'VP9VideoExtensions'</c>
-		<c>Microsoft.WebMediaExtensions 'WebMediaExtensions'</c>
-		<c>Microsoft.WebpImageExtension 'WebpImageExtension'</c>
-		<c>Microsoft.Win32WebViewHost 'Win32WebViewHost'</c>
-		<c>Microsoft.Windows.Apprep.ChxApp 'SmartScreen'</c>
-		<c>Microsoft.Windows.AssignedAccessLockApp 'AssignedAccessLockApp'</c>
-		<c>Microsoft.Windows.CallingShellApp 'CallingShellApp'</c>
-		<c>Microsoft.Windows.CapturePicker 'CapturePicker'</c>
-		<c>Microsoft.Windows.ContentDeliveryManager 'ContentDeliveryManager'</c>
-		<c>Microsoft.Windows.NarratorQuickStart 'NarratorQuickStart'</c>
-		<c>Microsoft.Windows.OOBENetworkCaptivePortal 'OOBENetworkCaptivePortal'</c>
-		<c>Microsoft.Windows.OOBENetworkConnectionFlow 'OOBENetworkConnectionFlow'</c>
-		<c>Microsoft.Windows.ParentalControls 'ParentalControls'</c>
-		<c>Microsoft.Windows.PeopleExperienceHost 'PeopleExperienceHost'</c>
-		<c>Microsoft.Windows.PinningConfirmationDialog 'PinningConfirmationDialog'</c>
-		<c>Microsoft.Windows.SecureAssessmentBrowser 'SecureAssessmentBrowser'</c>
-		<c>Microsoft.Windows.XGpuEjectDialog 'XGpuEjectDialog'</c>
-		<c>Microsoft.WindowsAlarms 'WindowsAlarms'</c>
-		<c>Microsoft.WindowsCalculator 'WindowsCalculator'</c>
-		<c>microsoft.windowscommunicationsapps 'Windows Mail'</c>
-		<c>Microsoft.WindowsFeedbackHub 'WindowsFeedbackHub'</c>
-		<c>Microsoft.WindowsMaps 'WindowsMaps'</c>
-		<c>Microsoft.WindowsSoundRecorder 'WindowsSoundRecorder'</c>
-		<c>Microsoft.Xbox.TCUI 'Xbox.TCUI'</c>
-		<c>Microsoft.XboxGameCallableUI 'XboxGameCallableUI'</c>
-		<c>Microsoft.XboxGameOverlay 'XboxGameOverlay'</c>
-		<c>Microsoft.XboxGamingOverlay 'XboxGamingOverlay'</c>
-		<c>Microsoft.XboxSpeechToTextOverlay 'XboxSpeechToTextOverlay'</c>
-		<c>Microsoft.YourPhone 'YourPhone'</c>
-		<c>Microsoft.ZuneMusic 'ZuneMusic'</c>
-		<c>Microsoft.ZuneVideo 'ZuneVideo'</c>
 		<c>migwiz 'Easy Transfer'</c>
 		<c>msinfo32 'Alat sistemske informacije (MSInfo32)'</c>
-		<c>ntvdm 'NTVDM 16-bit podsustav'</c>
-		<c>offlinefiles 'Offline datoteke'</c>
-		<c>optionalfeatures 'Optional Features'</c>
-		<c>osk 'On-Screen Keyboard (Tablet PC)'</c>
-		<c>osk_acc 'On-Screen Keyboard (Alati pristupačnosti)'</c>
-		<c>pdfreader 'Windows Reader backend'</c>
-		<c>perfmon 'Performance Monitor'</c>
-		<c>playready</c>
-		<c>printtopdf 'Print to PDF'</c>
-		<c>rdpclient 'Remote Desktop Client'</c>
-		<c>remoteassistance 'Remote Assistance'</c>
-		<c>remoteportredirector 'Remote Desktop Services Port Redirector'</c>
 		<c>remoteregistry 'Remote Registry'</c>
 		<c>retaildemo 'Retail Demo Content'</c>
-		<c>rotationmanager 'Auto-Rotation Manager'</c>
-		<c>rpclocator 'Remote Procedure Call (RPC) Locator'</c>
-		<c>securitycenter 'Sigurnosni centar'</c>
-		<c>sfc 'System File Check (SFC)'</c>
 		<c>sharedpc 'Shared PC mode'</c>
 		<c>smbv1 'SMB v1'</c>
-		<c>soundsdefault 'Zvukovi (zadano)'</c>
 		<c>sourcessxsdir 'Manual feature repository'</c>
-		<c>speechcommon 'Prepoznavanje govora'</c>
-		<c>speechtts 'Speech TTS'</c>
-		<c>spellchecking 'Spell Checking'</c>
-		<c>staticfontcache 'Static Font Cache'</c>
-		<c>stepsrecorder 'Steps Recorder'</c>
-		<c>storageqos 'Storage Quality of Service (Storage QoS)'</c>
-		<c>storagespaces 'Storage Spaces'</c>
 		<c>supportdir 'Support directory'</c>
-		<c>synccenter 'Sync Centar'</c>
-		<c>systemrestore 'Vraćanje sustava'</c>
-		<c>tabletextservice 'Table Text Servis'</c>
-		<c>tabletpc 'Tablet PC'</c>
 		<c>tempcache 'Cache i temp datoteke'</c>
-		<c>textprediction 'Predviđanje teksta'</c>
-		<c>tieringengine 'Storage Tiers Management'</c>
-		<c>uev 'User Experience Virtualization (UE-V)'</c>
-		<c>vcmcodecs 'Video Compression Manager (VCM) codecs'</c>
-		<c>vhd 'Potpora Virtualnog diska'</c>
-		<c>vss 'Volume Shadow Copy'</c>
-		<c>Windows.PrintDialog 'PrintDialog'</c>
-		<c>winocr 'Windows TIFF IFilter(OCR)'</c>
 		<c>winre 'Windows oporavak'</c>
-		<c>winrm 'Windows Remote Management (WS-Management)'</c>
-		<c>winsat 'Windows System Assessment Tool (WinSAT)'</c>
-		<c>winsxs 'Windows Component Store (WinSxS)'</c>
-		<c>wordpad</c>
 	</RemoveComponents>
 	<Compatibility protectHidden="true">
 		<ComponentFeatures>
@@ -324,7 +180,7 @@
 						<InstallFrom>
 							<MetaData>
 								<Key>/IMAGE/NAME</Key>
-								<Value>Windows 10 Pro</Value>
+								<Value>Windows 11 Pro</Value>
 							</MetaData>
 						</InstallFrom>
 					</OSImage>
@@ -420,7 +276,7 @@
 	<ApplyOptions>
 		<ImageTasks>
 			<Task>imageSaveTrim</Task>
-			<Task>imageFormatWim</Task>
+			<Task>imageFormatEsd</Task>
 		</ImageTasks>
 		<AutoIsoFile>NTLite.iso</AutoIsoFile>
 		<AutoIsoLabel>NTLite</AutoIsoLabel>
